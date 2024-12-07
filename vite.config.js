@@ -6,5 +6,7 @@ export default defineConfig({
   plugins: [react()],
   build: {
     sourcemap: true
-  }
+  },
+   base: '/iPhone-15-Pro/',
+
 })
